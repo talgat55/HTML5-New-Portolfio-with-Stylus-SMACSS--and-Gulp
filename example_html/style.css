@@ -1,0 +1,20 @@
+.item {
+	width: 25%;
+	float: left;
+	height: 60vh;
+	background-color: #f9f9f9;
+	vertical-align: top;
+}
+.item:nth-child(odd) {
+	background-color: #f1f1f1;
+}
+.item img {
+	max-width: 100%;
+	-webkit-filter: url(filters_clean.svg#kino);
+	-o-filter: url(filters_clean.svg#kino);
+	filter: url(filters_clean.svg#kino);
+}
+.item h3,
+.item .description {
+	padding: 0 20px;
+}
