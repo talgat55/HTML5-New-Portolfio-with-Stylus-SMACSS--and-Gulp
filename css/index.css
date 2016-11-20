@@ -188,6 +188,21 @@ textarea {
   display: table;
   width: 100%;
 }
+.header .header-right-part,
+.header .header-left-part {
+  display: table-cell;
+  vertical-align: middle;
+}
+.header #logo {
+  float: left;
+}
+.header #logo h1 {
+  margin: 0;
+}
+.header .nav-bar,
+.header .header-status {
+  float: right;
+}
 /*
  *  Font Awesome 4.0.3 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
