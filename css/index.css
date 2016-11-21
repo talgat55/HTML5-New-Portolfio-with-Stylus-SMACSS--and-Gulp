@@ -188,20 +188,43 @@ textarea {
   display: table;
   width: 100%;
 }
-.header .header-right-part,
-.header .header-left-part {
+.header-right-part,
+.header-left-part {
   display: table-cell;
   vertical-align: middle;
+  padding: 15px 0;
+  background-color: #c0392b;
+  filter: url("../../filter.svg#blur");
 }
 .header #logo {
   float: left;
+  margin-left: 30px;
 }
 .header #logo h1 {
   margin: 0;
 }
 .header .nav-bar,
-.header .header-status {
+.header-status {
   float: right;
+}
+.header-right-part {
+  margin-right: 30px;
+  background-color: #333;
+}
+.header .navigation {
+  margin: 0;
+  padding: 0;
+}
+.header .navigation li {
+  list-style: none;
+  line-height: 3;
+  padding: 0 5px;
+}
+.header .navigation li a {
+  text-decoration: none;
+  color: #f1f1f1;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 /*
  *  Font Awesome 4.0.3 by @davegandy - http://fontawesome.io - @fontawesome

@@ -3,17 +3,39 @@
 //
 .header
 	display table
-	width 100%
-	.header-right-part,
-	.header-left-part
+	width 100% 
+	&-right-part,
+	&-left-part
 		display: table-cell
 		vertical-align: middle
+		padding: 15px 0
+		background-color: #C0392B
+		filter: url( ../../filter.svg#blur)
+
 	#logo
 		float: left 
+		margin-left: 30px
 		h1
 			margin:0
 				
 	.nav-bar,
-	.header-status
+	&-status
 		float: right		
-			
+	&-right-part 
+		margin-right: 30px
+		background-color: #333
+
+	.navigation
+		margin: 0
+		padding: 0 
+
+		li
+			list-style: none
+			line-height: 3
+			padding: 0 5px
+		
+			a
+				text-decoration: none
+				color: #f1f1f1
+				text-transform: uppercase
+				font-weight: 600
