@@ -184,6 +184,17 @@ textarea {
   -webkit-appearance: button;
   font: inherit;
 }
+a {
+  text-decoration: none;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " ";
+}
+.clearfix:after {
+  clear: both;
+}
 .header {
   display: table;
   width: 100%;
@@ -220,10 +231,73 @@ textarea {
   padding: 0 5px;
 }
 .header .navigation li a {
+  color: #f1f1f1;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.portfolio-list {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.portfolio-list li {
+  list-style: none;
+}
+.header #logo {
+  float: left;
+  margin-left: 30px;
+}
+.header #logo h1 {
+  margin: 0;
+  color: #fff;
+}
+.header .nav-bar,
+.header-status {
+  float: right;
+}
+.header-right-part {
+  margin-right: 30px;
+  background-color: #333;
+}
+.header .navigation {
+  margin: 0;
+  padding: 0;
+}
+.header .navigation li {
+  list-style: none;
+  line-height: 3;
+  padding: 0 5px;
+}
+.header .navigation li a {
   text-decoration: none;
   color: #f1f1f1;
   text-transform: uppercase;
   font-weight: 600;
+  padding: 0 10px;
+}
+.header-right-social {
+  list-style: none;
+}
+.header-right-social a {
+  color: #fff;
+  font-size: 14px;
+  padding: 0 10px;
+}
+.portfolio-list li {
+  width: 50%;
+  float: left;
+  position: relative;
+}
+.portfolio-list img {
+  vertical-align: middle;
+}
+.portfolio-list span {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  background: #fff;
 }
 /*
  *  Font Awesome 4.7 by @davegandy - http://fontawesome.io - @fontawesome
