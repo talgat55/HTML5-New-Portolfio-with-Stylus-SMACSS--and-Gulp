@@ -194,7 +194,6 @@ textarea {
   vertical-align: middle;
   padding: 15px 0;
   background-color: #c0392b;
-  filter: url("../../filter.svg#blur");
 }
 .header #logo {
   float: left;
@@ -227,7 +226,7 @@ textarea {
   font-weight: 600;
 }
 /*
- *  Font Awesome 4.0.3 by @davegandy - http://fontawesome.io - @fontawesome
+ *  Font Awesome 4.7 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 @font-face {

@@ -26,9 +26,10 @@ gulp.task('watch', function() {
 });
 
 gulp.task('serve', function() {
-  browserSync.init({
-    startPath:'/index.html',
-    proxy: 'http://newportfolio.dev/'
+  browserSync.init({ 
+    server: {
+        baseDir: "./"
+    }
   });
 
   browserSync.watch('./**/*.*').on('change', browserSync.reload);
